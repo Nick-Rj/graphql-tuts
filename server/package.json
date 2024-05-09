@@ -1,0 +1,30 @@
+{
+  "name": "graphql-project",
+  "version": "1.0.0",
+  "description": "A Server with GraphQL",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r dotenv/config --experimental-json-modules index.js"
+  },
+  "keywords": [
+    "Node.js",
+    "GraphQL",
+    "Express",
+    "Apollo"
+  ],
+  "author": "Nikhil Raj",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "axios": "^1.6.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
